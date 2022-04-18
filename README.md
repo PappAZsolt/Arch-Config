@@ -91,8 +91,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
+alias zshconfig="nvim ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias c="clear"
 alias update="sudo pacman -Syu"
 alias open="nautilus"
